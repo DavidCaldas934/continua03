@@ -1,0 +1,16 @@
+@server = https://davidcaldas934-humble-succotash-5wppp57r55r2qxq-8080.preview.app.github.dev
+@apiserver = {{server}}/api/instrumento
+###
+GET {{server}}
+###
+GET {{apiserver}}/listar
+###
+POST {{apiserver}}/nuevo
+Content-Type: application/x-www-form-urlencoded
+
+nombre=Bombo
+###
+GET {{apiserver}}/eliminar
+###
+
+
