@@ -1,27 +1,24 @@
-@server = https://davidcaldas934-humble-succotash-5wppp57r55r2qxq-8080.preview.app.github.dev
-#@server = https://ec03-g9r7.onrender.com
+#@server = https://davidcaldas934-humble-succotash-5wppp57r55r2qxq-8080.preview.app.github.dev
+@server = https://ec03-g9r7.onrender.com
 @api = {{server}}/api/ec3
+
 ################ Categorias: ################
 ###
-POST  {{{{api}}}}/categorias
-Content-Type: application/json
-
-{"nombre": "Instrumento de percusion"}
-
+GET {{server}}/categorias
 ###
-POST {{api}}/categorias
+POST {{server}}/categorias
 Content-Type: application/json
 
 {"nombre": "Instrumentos de Cuerda"}
 ################ Instrumentos: ################
 ###
-GET {{api}}/instrumentos
+GET {{server}}/instrumentos
 ###
-POST {{api}}/instrumentos
+POST {{server}}/instrumentos
 Content-Type: application/json
 
 {"nombre": "Guitarra", "categoria": "http://localhost/api/ec3/categorias/1"}
 ###
-GET {{api}}/instrumento/1/categorias
+GET {{server}}/instrumentos/1/categoria
 ###
-GET {{api}}/instrumento?sort=nombre,desc
+GET {{server}}/instrumentos?sort=nombre,desc
