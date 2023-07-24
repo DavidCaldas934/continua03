@@ -1,4 +1,5 @@
-@server = https://davidcaldas934-humble-succotash-5wppp57r55r2qxq-8080.preview.app.github.dev
+#@server = https://davidcaldas934-humble-succotash-5wppp57r55r2qxq-8080.preview.app.github.dev
+@server = https://ec03-g9r7.onrender.com
 @apiserver = {{server}}/api/instrumento
 ###
 GET {{server}}
@@ -8,9 +9,12 @@ GET {{apiserver}}/listar
 POST {{apiserver}}/nuevo
 Content-Type: application/x-www-form-urlencoded
 
-nombre=Bombo
+nombre=Saxofon
 ###
-GET {{apiserver}}/eliminar
+DELETE {{apiserver}}/eliminar
+Content-Type: application/x-www-form-urlencoded
+
+id=52
 ###
 
 

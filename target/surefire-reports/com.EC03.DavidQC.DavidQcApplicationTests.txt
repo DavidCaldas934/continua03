@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.EC03.DavidQC.DavidQcApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.706 s - in com.EC03.DavidQC.DavidQcApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.749 s - in com.EC03.DavidQC.DavidQcApplicationTests

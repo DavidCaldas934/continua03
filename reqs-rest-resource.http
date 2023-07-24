@@ -1,0 +1,7 @@
+@server = https://davidcaldas934-humble-succotash-5wppp57r55r2qxq-8080.preview.app.github.dev
+###
+GET {{server}}
+###
+GET {{server}}/instrumentos
+###
+GET {{server}}/instrumentos/1
